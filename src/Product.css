@@ -16,6 +16,11 @@
     font-weight:bold;
 }
 
+.card-item
+{
+    max-height: 700px;
+}
+
 .mb-4
 {
     padding:10px;

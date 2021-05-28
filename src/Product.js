@@ -228,7 +228,7 @@ function Product() {
                         <div className="row mt-3 mb-3">
                             {ProductData.map((item, index)=>{
                                 return(
-                                    <div className="col-lg-3  col-sm-6 mt-2">
+                                    <div className="col-lg-3  col-sm-6 mt-2 card-item">
                                     <Cards key={index} title={item.title} price={item.price} image={item.image} rating={item.rate}/>
                                     </div>
                                 )

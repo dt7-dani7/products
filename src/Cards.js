@@ -13,17 +13,17 @@ function Cards({title,price,image,rating}) {
        {Array(rating).fill().map((_, i) =>(
         <p className="rating">&#9733;</p>
        ))}
-        {Array(rating).fill() }
+        {/* {Array(rating).fill() }
        {Array(rating).fill().map((_, i) =>(
         <p className="rating">&#9734;</p>
-       ))}
+       ))} */}
      </li>
     </ul>
       <a href="#" className="get-started-btn cart-button">Add to Cart</a>
       </div>
     </div>
        
-    )
+    ) 
 }
 
 export default Cards
