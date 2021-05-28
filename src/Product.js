@@ -17,34 +17,34 @@ function Product() {
                         <h2>Filters</h2>
 
 
-                        <section class="mb-4">
+                        <section className="mb-4">
 
-                            <h6 class="font-weight-bold mb-3">Types</h6>
+                            <h6 className="font-weight-bold mb-3">Types</h6>
 
-                            <div class="form-check pl-0 mb-3">
-                            <input type="checkbox" class="form-check-input filled-in" id="new"/>
-                            <label class="form-check-label small text-uppercase card-link-secondary" for="new">Cakes</label>
+                            <div className="form-check pl-0 mb-3">
+                            <input type="checkbox" className="form-check-input filled-in" id="new"/>
+                            <label className="form-check-label small text-uppercase card-link-secondary" for="new">Cakes</label>
                             </div>
-                            <div class="form-check pl-0 mb-3">
-                            <input type="checkbox" class="form-check-input filled-in" id="used"/>
-                            <label class="form-check-label small text-uppercase card-link-secondary" for="used">Cupcakes</label>
+                            <div className="form-check pl-0 mb-3">
+                            <input type="checkbox" className="form-check-input filled-in" id="used"/>
+                            <label className="form-check-label small text-uppercase card-link-secondary" for="used">Cupcakes</label>
                             </div>
-                            <div class="form-check pl-0 mb-3">
-                            <input type="checkbox" class="form-check-input filled-in" id="collectible"/>
-                            <label class="form-check-label small text-uppercase card-link-secondary" for="collectible">Macaroons</label>
+                            <div className="form-check pl-0 mb-3">
+                            <input type="checkbox" className="form-check-input filled-in" id="collectible"/>
+                            <label className="form-check-label small text-uppercase card-link-secondary" for="collectible">Macaroons</label>
                             </div>
-                            <div class="form-check pl-0 mb-3 pb-1">
-                            <input type="checkbox" class="form-check-input filled-in" id="renewed"/>
-                            <label class="form-check-label small text-uppercase card-link-secondary" for="renewed">Macaroons</label>
+                            <div className="form-check pl-0 mb-3 pb-1">
+                            <input type="checkbox" className="form-check-input filled-in" id="renewed"/>
+                            <label className="form-check-label small text-uppercase card-link-secondary" for="renewed">Macaroons</label>
                             </div>
 
                         </section>
-                        <section class="mb-4">
+                        <section className="mb-4">
 
-                            <h6 class="font-weight-bold mb-3 review">Avg. Customer Review</h6>
+                            <h6 className="font-weight-bold mb-3 review">Avg. Customer Review</h6>
 
                             <a href="#!">
-                            <ul class="rating">
+                            <ul className="rating">
                                 <p className="ratings">&#9733;</p>
                                 <p className="ratings">&#9733;</p>
                                 <p className="ratings">&#9733;</p>
@@ -54,7 +54,7 @@ function Product() {
                             </ul>
                             </a>
                             <a href="#!">
-                            <ul class="rating">
+                            <ul className="rating">
                                 <p className="ratings">&#9733;</p>
                                 <p className="ratings">&#9733;</p>
                                 <p className="ratings">&#9733;</p>
@@ -64,7 +64,7 @@ function Product() {
                             </ul>
                             </a>
                             <a href="#!">
-                            <ul class="rating">
+                            <ul className="rating">
                                 <p className="ratings">&#9733;</p>
                                 <p className="ratings">&#9733;</p>
                                 <p className="ratings">&#9734;</p>
@@ -74,7 +74,7 @@ function Product() {
                             </ul>
                             </a>
                             <a href="#!">
-                            <ul class="rating">
+                            <ul className="rating">
                                 <p className="ratings">&#9733;</p>
                                 <p className="ratings">&#9734;</p>
                                 <p className="ratings">&#9734;</p>
@@ -85,135 +85,135 @@ function Product() {
                             </a>
                 
                         </section>
-                        <section class="mb-4">
+                        <section className="mb-4">
 
-                            <h6 class="font-weight-bold mb-3">Price</h6>
+                            <h6 className="font-weight-bold mb-3">Price</h6>
 
-                            <div class="form-check pl-0 mb-3">
-                            <input type="radio" class="form-check-input" id="under25" name="materialExampleRadios"/>
-                            <label class="form-check-label small text-uppercase card-link-secondary" for="under25">Under ₹25</label>
+                            <div className="form-check pl-0 mb-3">
+                            <input type="radio" className="form-check-input" id="under25" name="materialExampleRadios"/>
+                            <label className="form-check-label small text-uppercase card-link-secondary" for="under25">Under ₹25</label>
                             </div>
-                            <div class="form-check pl-0 mb-3">
-                            <input type="radio" class="form-check-input" id="2550" name="materialExampleRadios"/>
-                            <label class="form-check-label small text-uppercase card-link-secondary" for="2550">₹25 to ₹50</label>
+                            <div className="form-check pl-0 mb-3">
+                            <input type="radio" className="form-check-input" id="2550" name="materialExampleRadios"/>
+                            <label className="form-check-label small text-uppercase card-link-secondary" for="2550">₹25 to ₹50</label>
                             </div>
-                            <div class="form-check pl-0 mb-3">
-                            <input type="radio" class="form-check-input" id="50100" name="materialExampleRadios"/>
-                            <label class="form-check-label small text-uppercase card-link-secondary" for="50100">₹50 to ₹100</label>
+                            <div className="form-check pl-0 mb-3">
+                            <input type="radio" className="form-check-input" id="50100" name="materialExampleRadios"/>
+                            <label className="form-check-label small text-uppercase card-link-secondary" for="50100">₹50 to ₹100</label>
                             </div>
-                            <div class="form-check pl-0 mb-3">
-                            <input type="radio" class="form-check-input" id="100200" name="materialExampleRadios"/>
-                            <label class="form-check-label small text-uppercase card-link-secondary" for="100200">₹100 to ₹200</label>
+                            <div className="form-check pl-0 mb-3">
+                            <input type="radio" className="form-check-input" id="100200" name="materialExampleRadios"/>
+                            <label className="form-check-label small text-uppercase card-link-secondary" for="100200">₹100 to ₹200</label>
                             </div>
-                            <div class="form-check pl-0 mb-3">
-                            <input type="radio" class="form-check-input" id="200above" name="materialExampleRadios"/>
-                            <label class="form-check-label small text-uppercase card-link-secondary" for="200above">₹200 & Above</label>
+                            <div className="form-check pl-0 mb-3">
+                            <input type="radio" className="form-check-input" id="200above" name="materialExampleRadios"/>
+                            <label className="form-check-label small text-uppercase card-link-secondary" for="200above">₹200 & Above</label>
                             </div>
                             <form>
-                            <div class="d-flex align-items-center mt-4 pb-1">
-                                <div class="md-form md-outline my-0">
-                                <input id="from" type="text" class="form-control mb-0"/>
+                            <div className="d-flex align-items-center mt-4 pb-1">
+                                <div className="md-form md-outline my-0">
+                                <input id="from" type="text" className="form-control mb-0"/>
                                 <label for="form">₹ Min</label>
                                 </div>
-                                <p class="px-2 mb-0 text-muted"> - </p>
-                                <div class="md-form md-outline my-0">
-                                <input id="to" type="text" class="form-control mb-0"/>
+                                <p className="px-2 mb-0 text-muted"> - </p>
+                                <div className="md-form md-outline my-0">
+                                <input id="to" type="text" className="form-control mb-0"/>
                                 <label for="to">₹ Max</label>
                                 </div>
                             </div>
                             </form>
 
                         </section>
-                        <section class="mb-4">
+                        <section className="mb-4">
 
-                            <h6 class="font-weight-bold mb-3">Price</h6>
+                            <h6 className="font-weight-bold mb-3">Price</h6>
 
-                            <div class="slider-price d-flex align-items-center my-4">
-                            <span class="font-weight-normal small text-muted mr-2">₹0</span>
-                            <form class="multi-range-field w-100 mb-1">
-                                <input id="multi" class="multi-range" type="range" />
+                            <div className="slider-price d-flex align-items-center my-4">
+                            <span className="font-weight-normal small text-muted mr-2">₹0</span>
+                            <form className="multi-range-field w-100 mb-1">
+                                <input id="multi" className="multi-range" type="range" />
                             </form>
-                            <span class="font-weight-normal small text-muted ml-2">₹100</span>
+                            <span className="font-weight-normal small text-muted ml-2">₹100</span>
                             </div>
                             
 
                         </section>
-                        <section class="mb-4">
+                        <section className="mb-4">
 
-                            <h6 class="font-weight-bold mb-3">Size</h6>
+                            <h6 className="font-weight-bold mb-3">Size</h6>
 
-                            <div class="form-check pl-0 mb-3">
-                            <input type="checkbox" class="form-check-input filled-in" id="34"/>
-                            <label class="form-check-label small text-uppercase card-link-secondary" for="34">34</label>
+                            <div className="form-check pl-0 mb-3">
+                            <input type="checkbox" className="form-check-input filled-in" id="34"/>
+                            <label className="form-check-label small text-uppercase card-link-secondary" for="34">34</label>
                             </div>
-                            <div class="form-check pl-0 mb-3">
-                            <input type="checkbox" class="form-check-input filled-in" id="36"/>
-                            <label class="form-check-label small text-uppercase card-link-secondary" for="36">36</label>
+                            <div className="form-check pl-0 mb-3">
+                            <input type="checkbox" className="form-check-input filled-in" id="36"/>
+                            <label className="form-check-label small text-uppercase card-link-secondary" for="36">36</label>
                             </div>
-                            <div class="form-check pl-0 mb-3">
-                            <input type="checkbox" class="form-check-input filled-in" id="38"/>
-                            <label class="form-check-label small text-uppercase card-link-secondary" for="38">38</label>
+                            <div className="form-check pl-0 mb-3">
+                            <input type="checkbox" className="form-check-input filled-in" id="38"/>
+                            <label className="form-check-label small text-uppercase card-link-secondary" for="38">38</label>
                             </div>
-                            <div class="form-check pl-0 mb-3">
-                            <input type="checkbox" class="form-check-input filled-in" id="40"/>
-                            <label class="form-check-label small text-uppercase card-link-secondary" for="40">40</label>
+                            <div className="form-check pl-0 mb-3">
+                            <input type="checkbox" className="form-check-input filled-in" id="40"/>
+                            <label className="form-check-label small text-uppercase card-link-secondary" for="40">40</label>
                             </div>
-                            <a class="btn btn-link text-muted p-0" data-toggle="collapse" href="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+                            <a className="btn btn-link text-muted p-0" data-toggle="collapse" href="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
                             More
                             </a>
-                            <div class="collapse pt-3" id="collapseExample">
-                            <div class="form-check pl-0 mb-3">
-                                <input type="checkbox" class="form-check-input filled-in" id="42"/>
-                                <label class="form-check-label small text-uppercase card-link-secondary" for="42">42</label>
+                            <div className="collapse pt-3" id="collapseExample">
+                            <div className="form-check pl-0 mb-3">
+                                <input type="checkbox" className="form-check-input filled-in" id="42"/>
+                                <label className="form-check-label small text-uppercase card-link-secondary" for="42">42</label>
                             </div>
-                            <div class="form-check pl-0 mb-3">
-                                <input type="checkbox" class="form-check-input filled-in" id="44"/>
-                                <label class="form-check-label small text-uppercase card-link-secondary" for="44">44</label>
+                            <div className="form-check pl-0 mb-3">
+                                <input type="checkbox" className="form-check-input filled-in" id="44"/>
+                                <label className="form-check-label small text-uppercase card-link-secondary" for="44">44</label>
                             </div>
-                            <div class="form-check pl-0 mb-3">
-                                <input type="checkbox" class="form-check-input filled-in" id="46"/>
-                                <label class="form-check-label small text-uppercase card-link-secondary" for="46">46</label>
+                            <div className="form-check pl-0 mb-3">
+                                <input type="checkbox" className="form-check-input filled-in" id="46"/>
+                                <label className="form-check-label small text-uppercase card-link-secondary" for="46">46</label>
                             </div>
-                            <div class="form-check pl-0 mb-3">
-                                <input type="checkbox" class="form-check-input filled-in" id="50"/>
-                                <label class="form-check-label small text-uppercase card-link-secondary" for="50">50</label>
+                            <div className="form-check pl-0 mb-3">
+                                <input type="checkbox" className="form-check-input filled-in" id="50"/>
+                                <label className="form-check-label small text-uppercase card-link-secondary" for="50">50</label>
                             </div>
                             </div>
 
                         </section>
-                        <section class="mb-4">
+                        <section className="mb-4">
 
-                            <h6 class="font-weight-bold mb-3">Color</h6>
+                            <h6 className="font-weight-bold mb-3">Color</h6>
 
-                            <div class="btn-group btn-group-toggle btn-color-group d-block mt-n2 ml-n2" data-toggle="buttons">
-                            <label class="btn rounded-circle white border-inset-grey p-3 m-2">
+                            <div className="btn-group btn-group-toggle btn-color-group d-block mt-n2 ml-n2" data-toggle="buttons">
+                            <label className="btn rounded-circle white border-inset-grey p-3 m-2">
                                 <input type="checkbox" autocomplete="off"/>
                             </label>
-                            <label class="btn rounded-circle grey p-3 m-2">
+                            <label className="btn rounded-circle grey p-3 m-2">
                                 <input type="checkbox" autocomplete="off"/>
                             </label>
-                            <label class="btn rounded-circle black p-3 m-2">
+                            <label className="btn rounded-circle black p-3 m-2">
                                 <input type="checkbox" autocomplete="off"/>
                             </label>
-                            <label class="btn rounded-circle green p-3 m-2">
+                            <label className="btn rounded-circle green p-3 m-2">
                                 <input type="checkbox" autocomplete="off"/>
                             </label>
-                            <label class="btn rounded-circle blue p-3 m-2">
+                            <label className="btn rounded-circle blue p-3 m-2">
                                 <input type="checkbox" autocomplete="off"/>
                             </label>
-                            <label class="btn rounded-circle purple p-3 m-2">
+                            <label className="btn rounded-circle purple p-3 m-2">
                                 <input type="checkbox" autocomplete="off"/>
                             </label>
-                            <label class="btn rounded-circle yellow p-3 m-2">
+                            <label className="btn rounded-circle yellow p-3 m-2">
                                 <input type="checkbox" autocomplete="off"/>
                             </label>
-                            <label class="btn rounded-circle indigo p-3 m-2">
+                            <label className="btn rounded-circle indigo p-3 m-2">
                                 <input type="checkbox" checked autocomplete="off"/>
                             </label>
-                            <label class="btn rounded-circle red p-3 m-2">
+                            <label className="btn rounded-circle red p-3 m-2">
                                 <input type="checkbox" autocomplete="off"/>
                             </label>
-                            <label class="btn rounded-circle orange p-3 m-2">
+                            <label className="btn rounded-circle orange p-3 m-2">
                                 <input type="checkbox" autocomplete="off"/>
                             </label>
                             </div>
