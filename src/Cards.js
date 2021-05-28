@@ -14,7 +14,7 @@ function Cards({title,price,image,rating}) {
        ))}
      </li>
     </ul>
-      <a href="n" className="btn btn-primary">Go somewhere</a>
+      <a href="n" className="btn btn-primary">Add to Cart</a>
       </div>
     </div>
        
