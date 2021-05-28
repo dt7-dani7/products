@@ -1,0 +1,47 @@
+.product
+{
+    font-family: 'Advent Pro' !important;
+}
+.filters
+{
+    padding: 2%;
+    padding-left: 1%;
+    background-color: #ffd9d9;
+    font-family: 'Advent Pro' !important;
+}
+
+.filters h2
+{
+    color: #1d425e;
+    font-weight:bold;
+}
+
+.mb-4
+{
+    padding:10px;
+}
+
+.mb-4 div
+{
+    padding-left:20px !important;
+}
+.ratings
+{
+    font-size: 28px;
+    color: #1d425e;
+    float: left;
+    width: 20%;
+    text-align: left;
+    margin-bottom: 20px;
+}
+.review .rating
+{
+    margin-left: -30px !important;
+}
+
+@media (max-width:1000px) 
+{
+    .filters{
+        display: none;
+    }    
+}

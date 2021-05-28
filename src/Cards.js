@@ -3,19 +3,23 @@ import './Cards.css';
 
 function Cards({title,price,image,rating}) {
     return (
-      <div className="card text-center" style={{width: 'auto'}}>
+      <div className="card text-center" style={{}}>
          <img src={image} className="card-img-top card-image" alt="..."/>
       <div className="card-body">
-      <h5 className="card-title">{title}</h5>
+      <h2 className="card-title">{title}</h2>
       <ul className="list-group list-group-flush">
-     <li className="list-group-item">{price}</li>
+     <li className="list-group-item">₹{price}</li>
      <li className="list-group-item">
        {Array(rating).fill().map((_, i) =>(
-        <p>S</p>
+        <p className="rating">&#9733;</p>
+       ))}
+        {Array(rating).fill() }
+       {Array(rating).fill().map((_, i) =>(
+        <p className="rating">&#9734;</p>
        ))}
      </li>
     </ul>
-      <a href="n" className="btn btn-primary">Add to Cart</a>
+      <a href="#" className="get-started-btn cart-button">Add to Cart</a>
       </div>
     </div>
        

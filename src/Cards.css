@@ -1,0 +1,54 @@
+.get-started-btn {
+    margin-left: 25px;
+    color: #fff;
+    border-radius: 50px;
+    padding: 6px 25px 7px 25px;
+    white-space: nowrap;
+    transition: 0.3s;
+    font-size: 14px;
+    display: inline-block;
+    background-color: #1D3558;
+    border: 2px solid #1D3558;
+    font-weight: 600;
+  }
+  
+  .get-started-btn:hover {
+    background: #31a9e1;
+    color: #fff;
+    text-decoration: none;
+  }
+
+
+  .card-body li
+  {
+      background-color: #FD9F9F;
+  }
+
+  .card ,.card-img-top
+  {
+    border-radius: 50px;
+    border-bottom: none;
+    background-color: #FD9F9F;
+  }
+
+  .card-img-top
+  {
+
+    max-height: 350px;
+    border-bottom: none !important;
+  }
+
+  .card-body
+  {
+    border-radius: 50px;
+    border-top: none;
+    background-color: #FD9F9F;
+  }
+
+  .card-body .rating
+  {
+    font-size: 28px;
+    color: #1d425e;
+    float: left;
+    width: 20%;
+  }
