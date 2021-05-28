@@ -1,9 +1,9 @@
 import React from 'react';
-
+import './Cards.css';
 function Cards({title,price,image,rating}) {
     return (
       <div className="card text-center" style={{width: 'auto'}}>
-         <img src={image} className="card-img-top" alt="..."/>
+         <img src={image} className="card-img-top custom_img" alt="..."/>
       <div className="card-body">
       <h5 className="card-title">{title}</h5>
       <ul className="list-group list-group-flush">
@@ -14,7 +14,7 @@ function Cards({title,price,image,rating}) {
        ))}
      </li>
     </ul>
-      <a href="n" className="btn btn-primary">Go somewhere</a>
+      <a href="n" className="btn btn-primary">Go Dipak</a>
       </div>
     </div>
        
